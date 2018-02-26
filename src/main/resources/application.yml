@@ -3,7 +3,11 @@ spring:
     config:
       server:
         git:
-#          uri:  "https://github.com/chudyni/spring-cloud-config-data"
-          uri:  "https://github.com/chudyni/spring-cloud-eureka-config-data"
+          uri:  "https://github.com/chudyni/spring-cloud-config-data"
+#          uri:  "https://github.com/chudyni/spring-cloud-eureka-config-data"
 server:
   port: 8001
+
+management:
+  security:
+    enabled: false
